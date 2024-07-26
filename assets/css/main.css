@@ -126,7 +126,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -180,6 +180,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: larger;
 	}
 
 		p.content {
@@ -213,10 +214,12 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
+		font-weight: bold;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 2em;
+		font-weight: bold;
 	}
 
 	h4 {
@@ -2642,7 +2645,7 @@ input, select, textarea {
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 			header.major h2:after {
@@ -2885,23 +2888,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #a2a2a2;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #9d9d9d;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #a2a2a2;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #9d9d9d;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #a2a2a2;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3222,7 +3225,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #dfdfdf;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3335,7 +3338,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #f1f1f1;
 		color: #636363;
 		border-radius: 0.25em;
 	}
@@ -3353,7 +3356,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #5d5d5d;
 		}
 
 		#main blockquote {
@@ -3547,10 +3550,7 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			
 		}
 
 		#main table tbody tr {
